@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 18px 0 10px 0;
+    text-align: center;
+}
+header h1 {
+    color: #f76b1c;
+    margin: 0 0 8px 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+nav a {
+    color: #f76b1c;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #e67e22;
+}
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    padding: 32px 24px 24px 24px;
+}
+.buah-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+}
+.buah-card {
+    background: #fdf6e3;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(247,107,28,0.07);
+    width: 220px;
+    padding: 18px 14px 16px 14px;
+    text-align: center;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+.buah-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(247,107,28,0.13);
+}
+.buah-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background: #fff3e0;
+}
+.buah-card h3 {
+    margin: 8px 0 6px 0;
+    color: #f76b1c;
+    font-size: 1.2em;
+}
+.buah-card p {
+    font-size: 0.98em;
+    color: #555;
+    min-height: 38px;
+}
+.buah-card .harga {
+    color: #e67e22;
+    font-weight: bold;
+    margin: 10px 0 12px 0;
+    font-size: 1.1em;
+}
+.buah-card button {
+    background: linear-gradient(90deg, #f76b1c 0%, #fad961 100%);
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s, transform 0.1s;
+}
+.buah-card button:hover {
+    background: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+    transform: scale(1.04);
+}
+footer {
+    text-align: center;
+    color: #fff;
+    background: #f76b1c;
+    padding: 16px 0 10px 0;
+    margin-top: 40px;
+    border-radius: 0 0 16px 16px;
+    font-size: 1em;
+}

@@ -1,16 +1,21 @@
-## Hi there 👋
+# Buah-Buahan Baper
 
-<!--
-**alus20/alus20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Website penjualan buah modern berbasis PHP & MySQL.
 
-Here are some ideas to get you started:
+## Fitur Utama
+- Daftar buah dengan gambar, harga, dan deskripsi
+- Detail buah
+- Keranjang belanja
+- Registrasi & login pengguna
+- Checkout sederhana
+- Dashboard admin (CRUD buah)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Cara Menjalankan
+1. Pastikan XAMPP atau server PHP & MySQL aktif
+2. Letakkan semua file di folder ini ke dalam direktori web server (misal: `htdocs` di XAMPP)
+3. Buat database `db_penjualan_buah` dan import struktur tabel (akan disediakan di langkah berikutnya)
+4. Akses website melalui browser
+
+## Catatan
+- Gambar buah menggunakan placeholder, silakan ganti sesuai kebutuhan
+- Untuk keamanan, gunakan password yang kuat dan update konfigurasi sesuai server Anda
